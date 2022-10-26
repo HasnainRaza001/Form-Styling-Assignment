@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Header Starts Here -->
+
+    <header>
+
+        <img src="./header.jpg">
+
+    </header>
+
+    <!-- FORM Start Here -->
+
+    <form class="main-container">
+        <div class="portion1">
+            <table>
+                <tr>
+                    <td>
+                        <label>Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" placeholder="Enter Name" size="35" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            Date of Birth:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="date" value="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile Number:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="cellno" required placeholder="Enter Moile No">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender:</label>
+                    </td>
+                    <td>
+                        <input class="input-select" type="radio" name="gender" id="male">Male
+                        <input class="input-select" type="radio" name="gender" id="female">Female
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="portion2">
+            <table>
+                <tr>
+                    <td>
+                        <label>Father Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="s/o" placeholder="Enter Father Name" size="35" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Age:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="age" required placeholder="Enter Age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="user-email" required placeholder="Enter Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>CNIC:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="cnic" required maxlength="13"
+                            placeholder="Enter CNIC without dashes">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="portion3">
+            <table>
+                <tr>
+                    <td>
+                        <label>Present Address:</label>
+                    </td>
+                    <td>
+                        <input class="input-select-2" type="text" name="address"
+                            placeholder="Enter Present Address Here">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Permanent Address:</label>
+                    </td>
+                    <td>
+                        <input class="input-select-2" type="text" name="address"
+                            placeholder="Enter Permanent Address Here">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Upload Picture:</label>
+                    </td>
+                    <td>
+                        <input type="file" name="picture" accept=".jpg">
+                    </td>
+                </tr>
+            </table>
+            <h3 class="heading">INSTRUCTIONS</h3>
+            <ul class="ul-1">
+                <li>Candidates must enter valid data.</li>
+                <li>Fill the form carefully.</li>
+                <li>Due to provide any icorrect information, authority has power to cancel the process of candidiate.
+                </li>
+                <li>Complete all fields in form.</li>
+                <li>Candidate will receive letter for test/interview</li>
+                <li>No TA/DA will be admissible to any candidate.</li>
+            </ul>
+            <table class="buttons">
+                <tr>
+                    <td>
+                        <button type="submit" value="submit">
+                            <a href="./submit.html">SUBMIT</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button type="submit" value="submit">RESET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="portion4">
+            <button type="submit" value="submit">SUBMIT</button>
+            <button type="reset" value="reset">RESET</button>
+        </div> -->
+
+    </form>
+
+
+</body>
+
+</html>

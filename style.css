@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    background-image: url(./bgimage4.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100%;
+}
+header>img{
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+}
+.portion1{
+    display: inline-flex;
+    /* border: 1px solid black; */
+    margin-left: 85px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.portion2{
+    display: inline-flex;
+    /* border: 1px solid black; */
+    margin-left: 75px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.portion3{
+    /* border: 1px solid blue;  */
+    margin-top: -8px;
+    margin-left: 85px;
+    padding: 15px;
+    padding-top: 0px;
+}
+.portion4 button{
+    display: inline-flex;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+.portion1, .portion2, .portion3{
+    font-size: 22px;
+}
+input{
+    width: 365px;
+    height: 35px;
+    outline: none;
+    /* border-radius: 5px; */
+}
+.input-select{
+    width: 25px;
+    height: 15px;
+}
+.input-select-2{
+    width: 750px;
+}
+.portion1, .portion2, .portion3{
+    line-height: 75px;
+}
+label{
+    color: black;
+}
+input:focus{
+    box-shadow: 1px 1px 5px rebeccapurple;
+    border: 2px solid rebeccapurple;
+    transition: 0.25s;
+}
+.ul-1 li{
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: white;
+}
+.heading{
+    line-height: 5px;
+    color: black;
+}
+/* .portion4 button{
+    cursor: pointer;
+} */
+.buttons button{
+    cursor: pointer;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(162, 218, 79);
+    color: black;
+}
+.buttons button a{
+    text-decoration: none;
+    color: black;
+}
+.buttons button:hover{
+    box-shadow: 1px 1px 5px rebeccapurple;
+    transition: 0.15s;
+}

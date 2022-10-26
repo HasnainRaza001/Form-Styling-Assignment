@@ -1,0 +1,22 @@
+h1, h2{
+    text-align: center;
+    color: blue;
+}
+header>img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 575px;
+    background-color: rgb(162, 218, 79);
+}
+a:hover{
+    box-shadow: 1px 1px 5px rebeccapurple;
+    transition: 0.25s;
+}
